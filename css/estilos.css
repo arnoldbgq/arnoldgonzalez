@@ -19,7 +19,8 @@ header{
     padding: 20px;
     background-color: white;
 }
-header img{
+header img{ 
+    
     max-width: 150px;
     max-height: 150px;
     margin-bottom: 10px;

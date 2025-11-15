@@ -104,5 +104,6 @@ footer a{
     color: white;
     text-decoration: none;
     padding: 8px 12px;
+    flex: 2;
 
 }

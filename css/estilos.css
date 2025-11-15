@@ -75,6 +75,10 @@ article ul, ol, dl{
     padding: 10px;
     margin: 18px;
 }
+article table{
+    background-color: rgb(248, 238, 250);
+    border: 1px solid;
+}
 aside{
     flex: 1;
     background-color: #eef;

@@ -10,7 +10,7 @@ function feliz(){
 function cambiarColor(){
     document.getElementsById('menu').style.color="#eed33aff";
 }
-function cambiarLogo{
+function cambiarLogo(){
     document.getElementById('logo').scr='images/logo2.jpg';
 }
 function cambiarFondo(){

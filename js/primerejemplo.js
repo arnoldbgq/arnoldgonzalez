@@ -8,11 +8,15 @@ function feliz(){
     document.getElementById('carita').src='images/happy.png';
 }
 function cambiarColor(){
-    document.getElementsById('menu').style.color="#eed33aff";
+    document.getElementById('menu').style.color='#eed33aff';
+
 }
 function cambiarLogo(){
-    document.getElementById('logo').scr='images/logo2.jpg';
+    document.getElementById('logo').src='images/logo2.jpg';
 }
 function cambiarFondo(){
-     document.getElementsById('menu').style.background='#524604';
+     document.getElementById('menu').style.background='#524604';
+}
+function cambiodeTexto(){
+    document.getElementById('Subtitulo').textContent="YA LE SE AL JS";
 }

@@ -11,7 +11,7 @@
        <header><a href="index.html">
             <img src="images/logo.jpg" alt="logo senati" with="300" height="300">
             </a>
-            <h1></h1>
+            <h1>FORMULARIOS</h1>
             <h2></h2>
        </header>
        <nav>
@@ -28,14 +28,20 @@
        </nav>
        <section>
         <article>
-         <form action="procesar.php" method="post">
+         <H3>Mi primer Formulario</H3>
+            <form action="procesar.php" method="post">
+               
             <input type="text" name="usuario" placeholder="Nombre de usuario">
             <input type="password" name="clave">
             <input type="email" name="correo">
             <input type="number" name="edad" min="1" max="100">
-
-
-  <!-- elementos de entrada -->
+            <input type="date" name="fecha_nacimiento">
+            <input type="file" name="documento">
+            <p>Intereses:</p>
+            <label><input type="checkbox" name="interes" value="musica"> Música</label>
+            <label><input type="checkbox" name="interes" value="cine"> Cine</label>
+            <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
+   
             </form>
 
       </article>

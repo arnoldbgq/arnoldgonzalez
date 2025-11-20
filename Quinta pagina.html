@@ -30,7 +30,6 @@
         <article>
          <H3>Mi primer Formulario</H3>
          <form action="" method="post">
-              
             <input type="text" name="usuario" placeholder="Nombre de usuario">
             <input type="password" name="clave" placeholder="Contraseña">
             <input type="email" name="correo" placeholder="email">
@@ -41,14 +40,15 @@
             <p>Género:</p>
                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
-                  <label><input type="radio" name="genero" value="otro"> Otro</label>
+               <label><input type="radio" name="genero" value="otro"> Otro</label>
 
             <h4>Casillas</h4>
             <p>Intereses:</p>
             <label><input type="checkbox" name="interes" value="musica"> Música</label>
             <label><input type="checkbox" name="interes" value="cine"> Cine</label>
             <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
-            <h2>Lista desplegable simple </h2>
+            <label><input type="checkbox" name="interes" value="programar"> Programar</label>
+            
             <h4>Lista desplegable simple </h4>
             <select name="pais">
                <option value="ar">Argentina</option>
@@ -57,7 +57,7 @@
                 <option value="pe">Perú</option>
             </select>
             <h4>Lista con múltiples opciones</h4>
-            <select name="cursos" multiple size="4">
+            <select name="cursos" multiple size="1">
                <option value="html">HTML</option>
                <option value="css">CSS</option>
                 <option value="js">JavaScript</option>
@@ -68,7 +68,7 @@
             <h4>Botones</h4>
             <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">
-           <button type="button" onclick="alert('Hola')">Haz clic</button>
+            <button type="button" onclick="alert('Hola')">Haz clic</button>
 
 
    

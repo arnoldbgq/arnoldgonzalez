@@ -5,28 +5,23 @@ document.getElementById("calcular").addEventListener("click", function(){
     let resultado = document.getElementById("resultado");
 
     if(isNaN(num1)||isNaN(num2)){
-        resultado.textContet = "Ingrese número Válidos";
+        resultado.textContent = "Ingrese números Valido";
         return;
     }
-function calcular(a,b,op){
+function calcular(a,b, op){
     switch (op) {
         case "suma":
-            return a+b;
-            break;
+            return a+b;     
         case "resta":
             return a-b;
-            break;
         case "multiplicacion":
             return a*b;
-            break;
         case "division":
             return a/b;
-            break;
         default:
             return "Operación Inválida"
-            
     }
 }
 let resultadoFinal = calcular(num1,num2,operacion);
-resultado.textContet="El resultado es: "+resultadoFinal;
+resultado.textContent="El Resultado es: "+resultadoFinal;
 })

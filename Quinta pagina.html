@@ -30,8 +30,12 @@
         <article>
          <H3>Mi primer Formulario</H3>
          <form action="" method="post">
-            <input type="text" name="usuario" placeholder="Nombre de usuario">
-            <input type="password" name="clave" placeholder="Contraseña">
+            <fieldset>
+               <legend>Datos personales</legend>
+                  <input type="text" name="nombre" placeholder="Nombre completo">
+                  <input type="email" name="correo" placeholder="Correo electrónico">
+            </fieldset>
+
             <input type="email" name="correo" placeholder="email">
             <input type="number" name="edad" min="1" max="100">
             <input type="date" name="fecha_nacimiento">

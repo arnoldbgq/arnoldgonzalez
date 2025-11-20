@@ -23,5 +23,5 @@ function calcular(a,b, op){
     }
 }
 let resultadoFinal = calcular(num1,num2,operacion);
-resultado.textContent="El Resultado es:  "+resultadoFinal;
+resultado.textContent="El Resultado es: "+resultadoFinal;
 })

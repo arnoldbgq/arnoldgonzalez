@@ -21,3 +21,6 @@ function cambiarFondo(){
 function cambiodeTexto(){
     document.getElementById('Subtitulo').textContent="YA LE SE AL JS";
 }
+function fondoAside(){
+    document.getElementById('aside').style.background='#f584f5ff';
+}

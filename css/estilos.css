@@ -68,10 +68,10 @@ article{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
-article dt{
+article dl dt{
     font-weight: bold;
 }
-article dd{
+article dl dd{
     font-weight: lighter;
     margin-left: 5px;
 }

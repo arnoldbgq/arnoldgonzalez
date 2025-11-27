@@ -71,6 +71,10 @@ article{
 article dt{
     font-weight: bold;
 }
+article dd{
+    font-weight: lighter;
+    margin-left: 5px;
+}
 article div{
     background-color: rgb(218, 240, 241);
     padding: 10px;

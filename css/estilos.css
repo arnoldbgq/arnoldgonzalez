@@ -68,6 +68,9 @@ article{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
+article dt{
+    font-style:initial;
+}
 article div{
     background-color: rgb(218, 240, 241);
     padding: 10px;

@@ -69,9 +69,8 @@ article{
     box-shadow: 0 2px 5px #022442;
 }
 article div{
-     flex: 2;
     background-color: rgb(218, 240, 241);
-    padding: 15px;
+    padding: 10px;
 }
 article img{
     width: 600px;

@@ -69,7 +69,7 @@ article{
     box-shadow: 0 2px 5px #022442;
 }
 article dt{
-    font-style:initial;
+    font-weight: bold;
 }
 article div{
     background-color: rgb(218, 240, 241);

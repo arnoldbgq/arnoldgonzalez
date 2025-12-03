@@ -27,7 +27,7 @@ function fondoAside(){
 }
 function mostrarMenu(){
     document.getElementById('m0').textContent="Index";
-    document.getElementById('m1').textContent="Imagenes";
+    document.getElementById('m1').innerText="Imagenes";
     document.getElementById('m2').textContent="Listas";
     document.getElementById('m3').textContent="Tablas";
     document.getElementById('m4').textContent="JavaScript";

@@ -24,7 +24,7 @@ function cambiodeTexto(){
 }
 function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';
-}
+}/*
 function mostrarMenu(){
     document.getElementById('m0').textContent="Index";
     document.getElementById('m1').textContent="Imagenes";
@@ -35,4 +35,4 @@ function mostrarMenu(){
     document.getElementById('m6').textContent="Bootstrap";
     document.getElementById('mt').textContent="ekoMArket";
     
-}
+}*/

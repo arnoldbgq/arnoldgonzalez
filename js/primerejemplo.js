@@ -34,4 +34,5 @@ function mostrarMenu(){
     document.getElementById('m5').textContent="Formularios";
     document.getElementById('m6').textContent="Bootstrap";
     document.getElementById('mt').textContent="ekoMArket";
+    
 }

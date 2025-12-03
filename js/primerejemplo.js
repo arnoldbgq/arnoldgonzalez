@@ -25,3 +25,13 @@ function cambiodeTexto(){
 function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';
 }
+function mostrarMenu(){
+    document.getElementById('m0').textContent="Index";
+    document.getElementById('m1').textContent="Imagenes";
+    document.getElementById('m2').textContent="Listas";
+    document.getElementById('m3').textContent="Tablas";
+    document.getElementById('m4').textContent="JavaScript";
+    document.getElementById('m5').textContent="Formularios";
+    document.getElementById('m6').textContent="Bootstrap";
+    document.getElementById('mt').textContent="ekoMArket";
+}

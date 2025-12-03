@@ -20,6 +20,7 @@ function cambiarFondo(){
 }
 function cambiodeTexto(){
     document.getElementById('Subtitulo').textContent="YA LE SE AL JS";
+    document.getElementById('titulo3').textContent="AMBIO DE TEXT";
 }
 function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';

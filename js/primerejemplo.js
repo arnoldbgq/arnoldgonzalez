@@ -20,11 +20,11 @@ function cambiarFondo(){
 }
 function cambiodeTexto(){
     document.getElementById('Subtitulo').textContent="YA LE SE AL JS";
-    document.getElementById('titulo3').textContent="AMBIO DE TEXT";
+    document.getElementById('titulo3').textContent="CAMBIO DE TEXTO";
 }
 function fondoAside(){
     document.getElementById('aside').style.background='#f584f5ff';
-}/*
+}
 function mostrarMenu(){
     document.getElementById('m0').textContent="Index";
     document.getElementById('m1').textContent="Imagenes";
@@ -35,4 +35,4 @@ function mostrarMenu(){
     document.getElementById('m6').textContent="Bootstrap";
     document.getElementById('mt').textContent="ekoMArket";
     
-}*/
+}
